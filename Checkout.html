@@ -1,13 +1,104 @@
 <!DOCTYPE html>
-<table>
-    <tr>
-<td ><strong>BACK</strong></td>
-<td ><strong>Checkout</strong></td>
-</tr>
-</table>
-<p ><strong>Form:</strong>Delivery Address</p>
-<p ><strong>Payment:</strong>Credit Card/ Cash on Pickup</p>
-<p >Order Summary: 2 items - R280.00</p>
-<p>Button: Place Order</p>
-<footer>@Tshego's Bakery</footer>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Tshego's Bakery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Tshego's Bakery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Checkout</h2>
+            <p>Please enter your details to complete your order.</p>
+            <hr>
+        </section>
+
+        <section class="checkout-section">
+            <div class="checkout-container">
+                
+                <div class="checkout-form">
+                    <h3>Delivery Details</h3>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="fullname">Full Name</label>
+                            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Delivery Address</label>
+                            <textarea id="address" name="address" rows="4" placeholder="Enter your full delivery address" required></textarea>
+                        </div>
+
+                        <button type="submit" class="cta-button">Place Order</button>
+                    </form>
+                </div>
+
+                <div class="checkout-summary">
+                    <h3>Order Summary</h3>
+                    <div class="summary-item">
+                        <p>Custom Birthday Cake (x1)</p>
+                        <p>R350.00</p>
+                    </div>
+                    <div class="summary-item">
+                        <p>Dozen Cupcakes (x1)</p>
+                        <p>R180.00</p>
+                    </div>
+                    <div class="summary-item">
+                        <p>Fresh Bread (x2)</p>
+                        <p>R50.00</p>
+                    </div>
+                    <hr>
+                    <div class="summary-item">
+                        <p>Subtotal</p>
+                        <p>R580.00</p>
+                    </div>
+                    <div class="summary-item">
+                        <p>Delivery</p>
+                        <p>R50.00</p>
+                    </div>
+                    <hr>
+                    <div class="summary-item total-price">
+                        <p><strong>Total</strong></p>
+                        <p><strong>R630.00</strong></p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <hr>
+    </main>
+
+    <footer>
+        <p>&copy; Tshego's Bakery</p>
+    </footer>
+
+</body>
+</html>
 </html>
