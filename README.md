@@ -30,7 +30,7 @@ The following screenshots demonstrate the responsive design of the website acros
 ![Desktop View](desktop-view.jpeg)
 
 ### Tablet View
-![Tablet View(tablet-view.jpeg)
+![Tablet View](tablet-view.jpeg)
 
 ### Mobile View
 ![Mobile View](mobile-view.jpeg)
