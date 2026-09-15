@@ -5,7 +5,6 @@ This project is a responsive website for Tshego's Bakery. It was built using HTM
 
 
 ### Part 2 - CSS Styling and Responsive Design
- **Fixed HTML Structure:** Corrected the placement of `<title>` and text tags. Added missing `<html>` and `<head>` tags to ensure valid HTML5 structure.
  **External CSS:** Created an external `style.css` file and linked it to all HTML pages to ensure consistent styling across the website (Requirement 2.1).
  **Base Styles:** Implemented a CSS reset (`*` selector) and set default typography (Arial font, color scheme, margins, and padding) to ensure cross-browser consistency (Requirement 2.2 & 2.3).
  **Layout Structure:** Utilized CSS Grid for the image gallery and product menus, and Flexbox for the navigation bar and checkout layout to create a clean desktop experience (Requirement 2.4).
