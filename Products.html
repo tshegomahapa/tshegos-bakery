@@ -1,54 +1,89 @@
 <!DOCTYPE html>
-<llink rel="stylesheet" href="style.css">
-<body style="background-color: #faf6f0;font-family: arial, sans-serif;">
-<table style="width: 100%;text-align: center;">
-<tr>
-<td style="text-align: left;width: 33%"><strong><img src="BakeryLogo.png" width="5%"></strong></td>
-<nav>
-<td style="text-align: center;width: 33%"><strong><a href="Gallery.html">MENU</a></strong></td>
-<td style="text-align: right;width: 33%;"><strong><a href="Checkout.html">CART</a></strong></td>
-</nav>
-</tr>
-</table>
-<hr>
-<h2 style="color: #5d5037;">Custom Cake Order/ Enquiry
-    <p>Fill in the form below to order a custom cake or make an enquiry.</p>
-    <div style="background-color: #ffffff;padding: 20px;border: 1px;">
-        <form action="#" method="post">
-            <label style="color: #5d5037; font-weight: bold;">Full Name</label><br>
-            <input type="text" name="name" placeholder="enter your name" required><br>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Tshego's Bakery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-            <label style="color: #5d5037; font-weight: bold;">Email</label><br>
-            <input type="email" name="email" placeholder="your@email.com" required><br>
+    <header>
+        <h1>Tshego's Bakery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
 
-            <label style="color: #5d5037; font-weight: bold;">Phone</label><br>
-            <input type="tel" name="phone" placeholder="+27 123 456 7890" required><br>
+    <main>
+        <section class="hero">
+            <h2>Our Menu</h2>
+            <p>Browse our selection of freshly baked goods.</p>
+            <hr>
+        </section>
 
-            <label style="color: #5d5037; font-weight: bold;">Flavor</label><br>
-            <input type="text" name="flavor" placeholder="vanilla/chocolate/strawberry" required><br>
+        <section class="products-menu">
+            <h3>Freshly Baked Daily</h3>
+            
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <h4>Cakes</h4>
+                    <p>Custom cakes for birthdays, weddings, and special occasions.</p>
+                    <p class="price">From R150</p>
+                    <a href="Checkout.html" class="cta-button">Buy Now</a>
+                </div>
+                
+                <div class="menu-item">
+                    <h4>Cupcakes</h4>
+                    <p>Perfectly portioned treats in a variety of flavors.</p>
+                    <p class="price">From R20</p>
+                    <a href="Checkout.html" class="cta-button">Buy Now</a>
+                </div>
+                
+                <div class="menu-item">
+                    <h4>Pastries</h4>
+                    <p>Flaky, buttery, and baked to golden perfection.</p>
+                    <p class="price">From R15</p>
+                    <a href="Checkout.html" class="cta-button">Buy Now</a>
+                </div>
 
-            <label style="color: #5d5037; font-weight: bold;">Filling</label><br>
-            <input type="text" name="filling" placeholder="strawberry/cream" required><br>
+                <div class="menu-item">
+                    <h4>Bread</h4>
+                    <p>Freshly baked daily, white and whole wheat.</p>
+                    <p class="price">From R25</p>
+                    <a href="Checkout.html" class="cta-button">Buy Now</a>
+                </div>
 
-            <label style="color: #5d5037; font-weight: bold;">Size</label><br>
-            <select name="size" style="width: 100%;pad: 10px;border: 1px solid #d5c4b0;">
-                <option>6"</option>
-                <option>8"</option>
-                <option>10"</option>
-            </select><br>
+                <div class="menu-item">
+                    <h4>Cookies</h4>
+                    <p>Crunchy on the outside, soft on the inside.</p>
+                    <p class="price">From R10</p>
+                    <a href="Checkout.html" class="cta-button">Buy Now</a>
+                </div>
+            </div>
 
-            <label style="color: #5d5037; font-weight: bold;">Message on Cake</label><br>
-            <input type="text" name="message" placeholder="Happy Birthday" ><br>
+            <h3 style="margin-top: 30px;">Weekly Specials</h3>
+            <ul>
+                <li>Monday: Buy 1 Get 1 Half Price on Cookies</li>
+                <li>Wednesday: Free Coffee with any Bread Purchase</li>
+                <li>Friday: Fresh Pastry Platters for the Weekend</li>
+            </ul>
+            
+            <a href="Contact.html" class="cta-button">Place a Custom Order</a>
+        </section>
+        <hr>
+    </main>
 
-            <label style="color: #5d5037; font-weight: bold;">Special Requests</label><br>
-            <textarea name="requests" rows="4" cols="30" placeholder="any needs or extra details"><br>
+    <footer>
+        <p>&copy; Tshego's Bakery</p>
+    </footer>
 
-            <button type="submit" style="background-color: #5d5037; color: #ffffff;border: none;padding: 8px;">Send Enquiry</button>
-        </form>
-    </div>
-</h2>
-
-<hr>
-<footer>@Tshego's Bakery</footer>
 </body>
 </html>
