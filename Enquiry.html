@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enquire about Tshego's Bakery products, custom cakes, and availability.">
+    <title>Enquiry - Tshego's Bakery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Tshego's Bakery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Enquiry.html">Enquiry</a></li>
+                <li><a href="Checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Product Enquiry</h2>
+            <p>Ask us about costs, availability, or custom orders.</p>
+            <hr>
+        </section>
+
+        <section class="checkout-section">
+            <div class="checkout-form" style="max-width: 600px; margin: 0 auto;">
+                <form action="mailto:tshego@bakery.com" method="POST" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="enq-name">Full Name</label>
+                        <input type="text" id="enq-name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="enq-phone">Phone Number</label>
+                        <input type="tel" id="enq-phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="enq-product">Product of Interest</label>
+                        <select id="enq-product" name="product" required style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+                            <option value="cake">Custom Cake</option>
+                            <option value="cupcakes">Cupcakes</option>
+                            <option value="bread">Bread</option>
+                            <option value="pastries">Pastries</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="enq-date">Date Needed</label>
+                        <input type="date" id="enq-date" name="date">
+                    </div>
+                    <div class="form-group">
+                        <label for="enq-details">Details / Questions</label>
+                        <textarea id="enq-details" name="details" rows="5" required placeholder="Tell us about your event or question..."></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Submit Enquiry</button>
+                </form>
+            </div>
+        </section>
+        <hr>
+    </main>
+
+    <footer>
+        <p>&copy; Tshego's Bakery</p>
+    </footer>
+</body>
+</html>
