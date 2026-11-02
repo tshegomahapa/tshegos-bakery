@@ -4,6 +4,23 @@
 This project is a responsive website for Tshego's Bakery. It was built using HTML and CSS. The website includes multiple pages: Home, About Us, Products, Contact, and Checkout. 
 
 
+## Part 3 - Enhancing Functionality and SEO
+
+### Changelog
+*   **JavaScript Enhancements:**
+    *   Implemented an interactive Accordion on the Products page for FAQs to enhance user experience.
+    *   Added a dynamic Live Search Bar on the Products page allowing users to filter products instantly.
+*   **Form Functionality and Validation:**
+    *   Created `Contact.html` with a general message form.
+    *   Created `Enquiry.html` with a product enquiry form.
+    *   Implemented client-side JavaScript validation for both forms to ensure fields like name, email, phone, and message meet minimum length requirements before submission.
+*   **Search Engine Optimization (SEO):**
+    *   Added descriptive `<meta name="description">` tags to the `<head>` of all HTML pages.
+    *   Ensured all images have descriptive `alt` attributes.
+    *   Created a `robots.txt` file to instruct search engine crawlers.
+    *   Created a `sitemap.xml` file to help search engines understand the site structure.
+*   **Deployment:** Deployed the website to Netlify (Link: [(https://storied-meerkat-f9e7c1.netlify.app)]).
+
 ### Part 2 - CSS Styling and Responsive Design
  **External CSS:** Created an external `style.css` file and linked it to all HTML pages to ensure consistent styling across the website (Requirement 2.1).
  **Base Styles:** Implemented a CSS reset (`*` selector) and set default typography (Arial font, color scheme, margins, and padding) to ensure cross-browser consistency (Requirement 2.2 & 2.3).
